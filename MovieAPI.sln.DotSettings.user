@@ -1,0 +1,21 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/ActualSeverity/@EntryValue">ERROR</s:String>
+	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/FiltersState/=CodeStyle/@EntryIndexedValue">On</s:String>
+	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/FiltersState/=NamingFilter/@EntryIndexedValue">On</s:String>
+	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/FiltersState/=SpellingFilter/@EntryIndexedValue">On</s:String>
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Gabriel\.nuget\packages\fluentresults\2.5.0\lib\netstandard2.1\FluentResults.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Gabriel\.nuget\packages\microsoft.extensions.dependencyinjection\5.0.1\lib\net5.0\Microsoft.Extensions.DependencyInjection.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Gabriel\.nuget\packages\microsoft.entityframeworkcore\5.0.5\lib\netstandard2.1\Microsoft.EntityFrameworkCore.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Gabriel\.nuget\packages\microsoft.entityframeworkcore.abstractions\5.0.5\lib\netstandard2.1\Microsoft.EntityFrameworkCore.Abstractions.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Gabriel\.nuget\packages\microsoft.entityframeworkcore.relational\5.0.5\lib\netstandard2.1\Microsoft.EntityFrameworkCore.Relational.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Gabriel\.nuget\packages\microsoft.entityframeworkcore.proxies\5.0.5\lib\netstandard2.1\Microsoft.EntityFrameworkCore.Proxies.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:Boolean x:Key="/Default/Environment/Highlighting/HighlightingEnabled/@EntryValue">False</s:Boolean>
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingMode/@EntryValue">OnlyFullLine</s:String>
+	
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b47ff9d9_002Dc352_002D4992_002Da084_002D97acf9e0aa72/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>

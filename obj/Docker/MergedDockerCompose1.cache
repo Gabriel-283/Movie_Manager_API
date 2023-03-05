@@ -1,0 +1,42 @@
+services:
+  Movie.Login.API:
+    build:
+      context: C:\Users\Gabriel\source\repos\Movie_Manager_API
+      dockerfile: Movie.Login.API/Dockerfile
+    container_name: apiaspn
+    depends_on:
+      database:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DBHOST: database
+    image: Movie.Login.API
+    ports:
+    - published: 5000
+      target: 80
+    - target: 80
+    - target: 443
+    restart: always
+    volumes:
+    - C:\Users\Gabriel\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Gabriel\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  database:
+    container_name: mysqldbr
+    environment:
+      MYSQL_DATABASE: MovieAPiProjectDb
+      MYSQL_PASSWORD: filt
+      MYSQL_ROOT_PASSWORD: filt
+      MYSQL_USER: mac
+    expose:
+    - '3306'
+    image: mysql:8.0.22
+    ports:
+    - published: 3307
+      target: 3306
+    restart: always
+    volumes:
+    - db-volume:/var/lib/mysql:rw
+version: '3.4'
+volumes:
+  db-volume: {}

@@ -1,0 +1,2 @@
+C:\Users\Gabriel\source\repos\MovieAPI\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\Movie_Manager_API\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

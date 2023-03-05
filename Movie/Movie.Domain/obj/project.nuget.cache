@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "87wkuYuPq6jFfnYbN+cItvinDVg8nlTI7Mlw19iKdKNA1CI7qg9VD6in412Fn9rGvFjbgmVvs0OackKUIIzi0w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gabriel\\source\\repos\\Movie_Manager_API\\Movie\\Movie.Domain\\Movie.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gabriel\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Gabriel\\.nuget\\packages\\fluentresults\\2.5.0\\fluentresults.2.5.0.nupkg.sha512",
+    "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
